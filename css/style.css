@@ -3,3 +3,37 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: blue;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    margin-right: 10px;
+}
+
+.container-destra{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    color: white;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+#bottone-menu{
+    border-radius: 40%;
+    border: none;
+    padding: 0 10px;
+}
