@@ -146,14 +146,38 @@ ul{
     padding-bottom: 40px;
 }
 
+.container-third-section{
+    text-align: center;
+    padding: 20px 0;
+}
 
+.testimonial{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 80%;
+    border: 1px solid black;
+    background-color: plum;
+    border-radius: 5%;
+    margin-top: 10px;
+}
 
+.img-third{
+    height: 100px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 30px;
+}
 
+.testimonial{
+    padding: 20px;
+    align-items: center;
+}
 
-
-
-
-
+.paragrafo-third{
+    color: white;
+}
 
 
 
