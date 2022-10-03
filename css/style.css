@@ -141,28 +141,69 @@ ul{
 
 
 
-
+/*PER MOBILE*/
 
 
 @media screen and (max-width:480px){
-    /*.nav {
-        padding: 10px;
-        display: flex;
-        justify-content: space-between;
-    }*/
-    ul {
-        display: none; 
+    header{
+        background-color: blue;
+        width: 100%;
     }
-
-    .bottone-menu{
+   
+    .container{
+        width: 80%;
+        margin: auto; 
+        width: 100%;
+    }
+   
+    .container-destra{
         display: none;
     }
-    /*.container-destra{
-        <i class="fa-solid fa-bars"></i>
-    }*/
+
+
+    .container-due-colonne{
+        display: block;
+    }
+
+    .c-i-s {
+        padding: 0 30px;
+    }
+
+
+    .img-phone {
+        height: 250px;
+        width: 100%;
+       padding: 0 20%;
+    }
+
+    .c-i-r {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .container-tre-colonne{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col{
+        width: 100%;
+        padding: 0 30px;
+        text-align: center;
+    }
+}
 
 
 
 
 
+
+
+
+
+
+
+/*PER TABLET*/
+@media screen and (min-width: 720px){
+    
 }
