@@ -37,3 +37,20 @@ ul{
     border: none;
     padding: 0 10px;
 }
+
+.container-due-colonne{
+    width: 100%;
+    display: flex;
+}
+
+.c-i-s{
+    flex-basis: 56%;
+}
+
+.img-phone{
+    height: 400px;
+}
+
+.c-i-r{
+    flex-basis: 40%;
+}
