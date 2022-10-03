@@ -50,12 +50,13 @@ ul{
 .container-due-colonne{
     width: 100%;
     display: flex;
-    margin-left: 5px;
-    
+    margin: 0 5px;
+    justify-content: space-between;
 }
 
 .c-i-s{
-    flex-basis: 54%;
+    display: flex;
+    flex-basis: 66%;
     background-color: lightblue;
 }
 
@@ -68,10 +69,9 @@ ul{
 }
 
 .c-i-r{
-    flex-basis: 40%;
+    flex-basis: 33%;
     text-align: center;
     background-color: lightblue;
-    margin-right: 5px;
 }
 
 .container-tre-colonne{
@@ -99,6 +99,51 @@ ul{
 .icon-first{
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+#second{
+    background-color: plum;
+}
+
+.container-second-section{
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+
+.col2{
+    width: calc(100% / 2);
+}
+
+.img2-testo{
+    padding-top: 40px ;
+    padding-bottom: 20px;
+}
+
+.img2{
+    height: 200px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.img3-testo{
+    width: 300px;
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.img3{
+    height: 200px;
+    padding-bottom: 20px;
+
+}
+
+.titolo-second-section{
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 
@@ -166,6 +211,7 @@ ul{
     }
 
     .c-i-s {
+        display: block;
         padding: 0 30px;
     }
 
@@ -204,6 +250,23 @@ ul{
 
 
 /*PER TABLET*/
-@media screen and (min-width: 720px){
-    
+@media screen and (max-width: 720px){
+    header{
+        background-color: blue;
+        width: 100%;
+    }
+   
+    .container{
+        width: 80%;
+        margin: auto; 
+        width: 100%;
+    }
+   
+    .container-destra{
+        display: none;
+    }
+
+    .c-i-s{
+        display: block;
+    }
 }
