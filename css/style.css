@@ -103,6 +103,7 @@ ul{
 
 #second{
     background-color: plum;
+    margin-top: 30px;
 }
 
 .container-second-section{
@@ -166,7 +167,7 @@ ul{
     height: 100px;
     width: 200px;
     border-radius: 50%;
-    overflow: hidden;
+    /*overflow: hidden;*/
     margin-right: 30px;
 }
 
@@ -179,8 +180,63 @@ ul{
     color: white;
 }
 
+.titolo-fourth{
+    text-align: center;
+}
 
+.table-1{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
 
+.col-t{
+    width: calc(100% / 3);
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.fourth{
+    margin-top: 30px;
+    background-color: plum;
+    color: white;
+}
+
+.quinta-section{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.colonna-sinistra{
+    flex-basis: 60%;
+    padding: 40px;
+}
+
+.colonna-destra{
+    flex-basis: 35%;
+    padding: 40px;
+}
+
+.quinta-section{
+    margin-top: 40px;
+}
+
+.img-5{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.titolo-5{
+    width: 100px;
+}
 
 
 
