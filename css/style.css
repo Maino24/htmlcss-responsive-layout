@@ -10,11 +10,15 @@ header{
 
 .container{
     width: 80%;
-    margin: auto;
+    margin: auto; 
+}
+
+.nav{
     padding: 10px;
     display: flex;
     justify-content: space-between;
 }
+
 
 li{
     list-style: none;
@@ -38,19 +42,127 @@ ul{
     padding: 0 10px;
 }
 
+.first{
+    margin-top: 40px;
+    
+}
+
 .container-due-colonne{
     width: 100%;
     display: flex;
+    margin-left: 5px;
+    
 }
 
 .c-i-s{
-    flex-basis: 56%;
+    flex-basis: 54%;
+    background-color: lightblue;
 }
 
 .img-phone{
-    height: 400px;
+    height: 200px;
+    padding-right: 100px;
+    margin-right: 10px;
+    padding-top: 20px;
+    background-color: lightblue;
 }
 
 .c-i-r{
     flex-basis: 40%;
+    text-align: center;
+    background-color: lightblue;
+    margin-right: 5px;
+}
+
+.container-tre-colonne{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.col{
+    width: calc(100% / 3);
+    text-align: center;
+    background-color: lightblue;
+    margin: 0 5px;
+}
+
+.t-first-section{
+    padding-bottom: 30px;
+}
+
+.text-first-section{
+    padding-bottom: 30px;
+}
+
+.icon-first{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px){
+    /*.nav {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }*/
+    ul {
+        display: none; 
+    }
+
+    .bottone-menu{
+        display: none;
+    }
+    /*.container-destra{
+        <i class="fa-solid fa-bars"></i>
+    }*/
+
+
+
+
+
 }
