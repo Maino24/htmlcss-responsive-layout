@@ -480,7 +480,6 @@ footer{
         width: 100%;
         margin: auto;
         display: flex; 
-        border-radius: 20%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -491,10 +490,11 @@ footer{
         width: 90%;
         padding-top: 40px;
         padding-bottom: 20px;
+        color: white;
     }
 
     .img2 {
-        width: 90%;
+        width: 100%;
         height: 500px;
         padding-bottom: 20px;
         text-align: left;
@@ -510,6 +510,17 @@ footer{
         border-radius: 5%;
     }
 
+    .container-third-section {
+        text-align: center;
+        padding: 20px 0;
+        width: 90%;
+    }
+
+    .testimonial {
+        padding: 20px;
+        align-items: center;
+        width: 90%;
+    }
 
 }
 
