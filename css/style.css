@@ -427,6 +427,25 @@ footer{
         align-items: center;
     }
 
+    .quinta-section {
+        display: flex;
+        margin: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .img-5 {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    .titolo-5 {
+        width: 300px;
+        font-size: 2.0rem;
+        margin: 15px 0;
+    }
+}
 
 
 
@@ -435,16 +454,16 @@ footer{
 
 
 /*PER TABLET*/
-@media screen and (max-width: 720px){
+@media screen and (max-width:768px){
     header{
         background-color: blue;
         width: 100%;
     }
    
     .container{
-        width: 80%;
+        width: 90%;
         margin: auto; 
-        width: 100%;
+        /*width: 100%;*/
     }
    
     .container-destra{
@@ -452,6 +471,47 @@ footer{
     }
 
     .c-i-s{
-        display: block;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
     }
+
+    .container-second-section {
+        width: 100%;
+        margin: auto;
+        display: flex; 
+        border-radius: 20%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .img2-testo {
+        width: 90%;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .img2 {
+        width: 90%;
+        height: 500px;
+        padding-bottom: 20px;
+        text-align: left;
+        text-align: center;
+    }
+
+    .img3-testo {
+        width: 90%;
+        background-color: white;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        padding: 10px;
+        border-radius: 5%;
+    }
+
+
 }
+
+
+
