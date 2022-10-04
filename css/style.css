@@ -255,6 +255,24 @@ ul{
     padding-bottom: 10px;
 }
 
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;    
+    
+}
+
+.container-footer{
+    width: 40%;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.p-footer-uno{
+    padding: 20px 0;
+    text-align: center;
+}
 
 
 
