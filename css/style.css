@@ -132,8 +132,9 @@ ul{
     background-color: white;
     margin-top: 100px;
     margin-bottom: 30px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
+    border-radius: 10%;
 }
 
 .img3{
@@ -351,7 +352,25 @@ footer{
         padding: 0 30px;
         text-align: center;
     }
-}
+
+    .container-second-section {
+        width: 100%;
+        margin: auto;
+        display: flex; 
+        border-radius: 20%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    #second {
+        background-color: plum;
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    
 
 
 
