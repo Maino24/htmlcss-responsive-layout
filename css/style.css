@@ -238,6 +238,22 @@ ul{
     width: 100px;
 }
 
+.sixth{
+    text-align: center;
+    background-color: plum;
+}
+
+.pad-six{
+    padding: 10px;
+}
+
+.pad-six1{
+    display: flex;
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    padding-bottom: 10px;
+}
 
 
 
