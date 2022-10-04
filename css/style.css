@@ -370,10 +370,62 @@ footer{
         padding-bottom: 30px;
     }
 
+    .img2-testo{
+        padding-top: 20px ;
+        padding-bottom: 10px;
+    }
+
+    .img2 {
+        height: 200px;
+        
+        text-align: center;
+        padding-bottom: 20px;
+    }
     
+    .img3-testo {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
 
 
+    .testimonial {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 15px;
+    }
 
+    .img-third {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        overflow: hidden; 
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+
+    .paragrafo-third {
+        text-align: center;
+    }
+
+    .fourth {
+        margin-top: 30px;
+    }
+
+    .titolo-fourth {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .table-1 {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
 
 
 
