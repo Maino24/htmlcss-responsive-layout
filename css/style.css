@@ -58,6 +58,17 @@ ul{
     display: flex;
     flex-basis: 66%;
     background-color: lightblue;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container-img-phone{
+    display: flex;
+    margin: auto;
+    justify-content: flex-end;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .img-phone{
@@ -66,12 +77,14 @@ ul{
     margin-right: 10px;
     padding-top: 20px;
     background-color: lightblue;
+    
 }
 
 .c-i-r{
     flex-basis: 33%;
     text-align: center;
     background-color: lightblue;
+    padding: 10px;
 }
 
 .container-tre-colonne{
@@ -86,6 +99,7 @@ ul{
     text-align: center;
     background-color: lightblue;
     margin: 0 5px;
+    padding: 10px;
 }
 
 .t-first-section{
@@ -99,6 +113,7 @@ ul{
 .icon-first{
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 40px;
 }
 
 #second{
@@ -190,16 +205,18 @@ ul{
     margin: auto;
     display: flex;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .col-t{
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 20px);
     border: 1px solid black;
     padding: 20px;
     background-color: white;
     color: black;
     border-radius: 5%;
     margin: 10px;
+    
 }
 
 .fourth{
@@ -522,7 +539,64 @@ footer{
         width: 90%;
     }
 
+
+    .table-1 {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    .col-t{
+        width: calc((100% / 2) - 20px);
+        
+    }
+
+    .fifth{
+        width: 90%;
+    }
+
+    .quinta-section {
+        display: flex;
+        margin: auto;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .colonna-sinistra{
+        flex-basis: 50%;
+        font-size: 1.4rem;
+    }
+    
+    .colonna-destra{
+        flex-basis: 50%;
+        font-size: 1.0rem;
+    }
+
+    .titolo-5{
+        width: 100%;
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
